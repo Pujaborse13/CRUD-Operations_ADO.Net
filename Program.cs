@@ -12,8 +12,13 @@ class Program
     public static void Main(string[] args)
     { 
     
-        CRUD_Operations operations = new CRUD_Operations();
-        operations.Crud_OP();
+        //CRUD_Operations operations = new CRUD_Operations();
+        //operations.Crud_OP();
+
+        CRUD_OperationUsingSwitchCase crud_OpUsingSwitchCase = new CRUD_OperationUsingSwitchCase();
+        crud_OpUsingSwitchCase.Crud_OPUsingSwicth();
+
+
 
     
     
